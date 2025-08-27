@@ -579,7 +579,7 @@ def display_employee_card(employee, index):
 
 def main():
     st.set_page_config(
-        page_title="Fake Data Generator & Deployer", 
+        page_title="Demo Site Onboarding Automator", 
         page_icon="🎭", 
         layout="wide",
         initial_sidebar_state="expanded"
@@ -626,16 +626,13 @@ def main():
     # Sidebar for information
     with st.sidebar:
         st.header("ℹ️ About")
-        st.write("This tool generates fake employee data and deploys it to your database via FastAPI.")
+        st.write("This tool generates fake employee data and deploys it to the test database.")
         st.write("**Features:**")
         st.write("- Generate realistic fake employee profiles")
         st.write("- Configurable role distributions")
         st.write("- Multiple organization types")
         st.write("- Deploy to database via API")
-        st.write("- **NEW**: Cognito user creation")
-        st.write("- **NEW**: Persistent temporary password management")
-        st.write("- Real-time deployment status")
-        st.write("- Export to CSV")
+        st.write("- Cognito user creation")
         
         st.markdown("---")
         st.subheader("🔧 API Configuration")
