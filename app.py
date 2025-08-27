@@ -579,7 +579,7 @@ def display_employee_card(employee, index):
 
 def main():
     st.set_page_config(
-        page_title="Demo Site Onboarding Automator", 
+        page_title="Onboard Autiomation Site", 
         page_icon="🎭", 
         layout="wide",
         initial_sidebar_state="expanded"
@@ -618,7 +618,7 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<h1 class="main-header">🎭 Fake Data Generator & Deployer</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🎭 Demo Site Onboarding Automator</h1>', unsafe_allow_html=True)
     
     # Hardcoded API base URL
     API_BASE_URL = "http://23.22.214.208:8000"
